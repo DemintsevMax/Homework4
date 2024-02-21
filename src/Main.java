@@ -6,6 +6,12 @@ public class Main {
             System.out.println("Если возраст человека равен "
             +ageAdultHuman+ " то он совершеннолетний ");
         }
+        int ageYoungHuman = 14;
+        if (ageYoungHuman<18) {
+            System.out.println("Если возраст человека равен "
+            +ageYoungHuman+" то он не достиг совершеннолетия, " +
+                    "нужно немного подождать");
+        }
     }
 
 }
