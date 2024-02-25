@@ -20,8 +20,29 @@ public class Main
         if (speed>60){
             System.out.println("Если скорость " +speed+ " придется заплатить штраф");}
         else {
-            System.out.println("Если скорость " +speed+ " можно ездить спокойно");
+            System.out.println("Если скорость " +speed+ " можно ездить спокойно");}
+
+        System.out.println("Task №4");
+        int ageKid = 7;
+        if (ageKid>=2 && ageKid<=6){
+            System.out.println("Если возраст человека равен "+ ageKid + " то ему нужно ходить в детский сад.");
+        } if (ageKid>=7 && ageKid<=17){
+            System.out.println("Если возраст человека равен "+ ageKid + " то ему нужно ходить в школу.");
+        } if (ageKid>=18 && ageKid<=24){
+            System.out.println("Если возраст человека равен "+ ageKid + " то ему нужно ходить в университет.");
+        } if (ageKid>24){
+            System.out.println("Если возраст человека равен "+ ageKid + " то ему пора ходить на работу.");
         }
+
+        System.out.println("Task №5");
+        ageKid = 7;
+        boolean humanAdult = true;
+        if (ageKid<5){
+            System.out.println("Если возраст ребенка равен " +ageKid+ "о он не может кататься на аттракционе.");
+        }
+
+
+
 
 
 
