@@ -74,7 +74,7 @@ public class Main {
             System.out.println("В вагоне есть сидячие места");
         if (passengers >= totalСapacity) {
             System.out.println("Вагон полностью забит");
-
+        }
 
             System.out.println("Task №7");
             int one = 8;
@@ -91,7 +91,7 @@ public class Main {
         }
     }
 
-}
+
 
 
 
