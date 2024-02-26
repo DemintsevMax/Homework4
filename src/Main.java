@@ -76,20 +76,20 @@ public class Main {
             System.out.println("Вагон полностью забит");
         }
 
-            System.out.println("Task №7");
-            int one = 8;
-            int two = 65;
-            int three = 15;
-            if (one > two && one > three) {
-                System.out.println(one + " большее число");
-            }
-            if (two > one && two > three) {
-                System.out.println(two + " большее число");
-            }
-            if (three > one && three > two)
-                System.out.println(three + " большее число");
+        System.out.println("Task №7");
+        int one = 8;
+        int two = 65;
+        int three = 15;
+        if (one > two && one > three) {
+            System.out.println(one + " большее число");
         }
+        if (two > one && two > three) {
+            System.out.println(two + " большее число");
+        }
+        if (three > one && three > two)
+            System.out.println(three + " большее число");
     }
+}
 
 
 
